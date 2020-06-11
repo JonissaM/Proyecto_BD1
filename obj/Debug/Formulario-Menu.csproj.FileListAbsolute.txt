@@ -1,0 +1,31 @@
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\bin\Debug\Formulario-Menu.exe.config
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\bin\Debug\Formulario-Menu.exe
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\bin\Debug\Formulario-Menu.pdb
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario-Menu.csprojAssemblyReference.cache
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.Form1.resources
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.Properties.Resources.resources
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario-Menu.csproj.GenerateResource.cache
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario-Menu.exe
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario-Menu.pdb
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.inicio.resources
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.Productos.resources
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.Ventas.resources
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.Clientes.resources
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.Compras.resources
+C:\Users\Jonissa Carrion\source\repos\Formulario-Menu\obj\Debug\Formulario_Menu.LoginEmpleados.resources
+F:\Formulario-Menu\bin\Debug\Formulario-Menu.exe.config
+F:\Formulario-Menu\bin\Debug\Formulario-Menu.exe
+F:\Formulario-Menu\bin\Debug\Formulario-Menu.pdb
+F:\Formulario-Menu\obj\Debug\Formulario-Menu.csprojAssemblyReference.cache
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Clientes.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Compras.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Form1.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.inicio.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.LoginEmpleados.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Productos.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Properties.Resources.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Ventas.resources
+F:\Formulario-Menu\obj\Debug\Formulario-Menu.csproj.GenerateResource.cache
+F:\Formulario-Menu\obj\Debug\Formulario-Menu.exe
+F:\Formulario-Menu\obj\Debug\Formulario-Menu.pdb
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Pagos.resources
