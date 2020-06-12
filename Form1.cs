@@ -68,22 +68,22 @@ namespace Formulario_Menu
         }
         private void btnReportes_Click (object sender, EventArgs e)
         {
-            SubmenuReportes.Visible = true;
+           SubmenuReportes.Visible = !SubmenuReportes.Visible;
         }
 
         private void btnrptventas_Click(object sender, EventArgs e)
         {
-            SubmenuReportes.Visible = false;
+            //SubmenuReportes.Visible = false;
         }
 
         private void btnrptcompras_Click(object sender, EventArgs e)
         {
-            SubmenuReportes.Visible = false;
+            //SubmenuReportes.Visible = false;
         }
 
         private void btnrptpagos_Click(object sender, EventArgs e)
         {
-            SubmenuReportes.Visible = false;
+              //SubmenuReportes.Visible = false;
         }
 
         private void btnsalir_Click(object sender, EventArgs e)
@@ -110,9 +110,27 @@ namespace Formulario_Menu
         {
             AbrirFromHija(new inicio());
         }
-        private void btnventas_click(object sender, EventArgs e)
+        private void btnclientes_Click(object sender, EventArgs e)
+        {
+            AbrirFromHija(new Clientes());
+        }
+        private void btncompras_Click(object sender, EventArgs e)
+        {
+            AbrirFromHija(new Compras());
+        }
+        private void btnventas_Click(object sender, EventArgs e)
         {
             AbrirFromHija(new Ventas());
         }
-     }
+        private void btnpagos_Click(object sender, EventArgs e)
+        {
+            AbrirFromHija(new Pagos());
+        }
+        private void btnempleados_Click(object sender, EventArgs e)
+        {
+            AbrirFromHija(new LoginEmpleados());
+        }
+       
+
+    }
 }

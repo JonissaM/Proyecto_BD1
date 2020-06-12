@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblCompras = new System.Windows.Forms.Label();
+            this.btnCompras = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -40,19 +40,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblCompras
+            // btnCompras
             // 
-            this.lblCompras.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnCompras.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblCompras.AutoSize = true;
-            this.lblCompras.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCompras.ForeColor = System.Drawing.Color.White;
-            this.lblCompras.Location = new System.Drawing.Point(441, 41);
-            this.lblCompras.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblCompras.Name = "lblCompras";
-            this.lblCompras.Size = new System.Drawing.Size(126, 25);
-            this.lblCompras.TabIndex = 1;
-            this.lblCompras.Text = "COMPRAS";
+            this.btnCompras.AutoSize = true;
+            this.btnCompras.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCompras.ForeColor = System.Drawing.Color.White;
+            this.btnCompras.Location = new System.Drawing.Point(441, 41);
+            this.btnCompras.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.btnCompras.Name = "btnCompras";
+            this.btnCompras.Size = new System.Drawing.Size(126, 25);
+            this.btnCompras.TabIndex = 1;
+            this.btnCompras.Text = "COMPRAS";
             // 
             // label2
             // 
@@ -167,7 +167,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lblCompras);
+            this.Controls.Add(this.btnCompras);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Compras";
             this.Text = "Compras";
@@ -179,7 +179,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblCompras;
+        private System.Windows.Forms.Label btnCompras;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;

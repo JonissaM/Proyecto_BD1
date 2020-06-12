@@ -21,5 +21,10 @@ namespace Formulario_Menu
         {
             this.Close();
         }
+
+        private void Clientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
