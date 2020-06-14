@@ -73,6 +73,46 @@ namespace Formulario_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_agregar_carpeta_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-agregar-carpeta-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_archivo_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-archivo-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_archivo_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-archivo-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_archivo_48_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-archivo-48-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_bolsa_de_dinero_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-bolsa-de-dinero-30", resourceCulture);

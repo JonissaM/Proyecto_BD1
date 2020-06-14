@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -35,7 +36,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
-            this.btnguardado = new System.Windows.Forms.Button();
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -43,16 +43,19 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.dgv = new System.Windows.Forms.DataGridView();
-            this.textagregar = new System.Windows.Forms.TextBox();
-            this.btnteliminar = new System.Windows.Forms.TextBox();
-            this.txtDESCRIPCIONES = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtCANTIDADES = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtLISTA_PRODUCTOS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TXTSELECCION = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnguardado = new System.Windows.Forms.Button();
+            this.btnproveedor = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.btnfecha = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -61,7 +64,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(164, 159);
+            this.label2.Location = new System.Drawing.Point(155, 82);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 20);
@@ -74,7 +77,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(535, 107);
+            this.label3.Location = new System.Drawing.Point(570, 125);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 20);
@@ -87,7 +90,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(152, 61);
+            this.label4.Location = new System.Drawing.Point(524, 86);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 20);
@@ -98,7 +101,7 @@
             // 
             this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(275, 105);
+            this.textBox3.Location = new System.Drawing.Point(266, 121);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(154, 24);
@@ -112,7 +115,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(177, 109);
+            this.label5.Location = new System.Drawing.Point(168, 123);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(90, 20);
@@ -129,7 +132,7 @@
             this.btnmodificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmodificar.Image = global::Formulario_Menu.Properties.Resources.icons8_documento_correcto_48;
             this.btnmodificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnmodificar.Location = new System.Drawing.Point(611, 569);
+            this.btnmodificar.Location = new System.Drawing.Point(559, 546);
             this.btnmodificar.Name = "btnmodificar";
             this.btnmodificar.Size = new System.Drawing.Size(204, 31);
             this.btnmodificar.TabIndex = 10;
@@ -146,29 +149,12 @@
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Image = global::Formulario_Menu.Properties.Resources.icons8_eliminar_48;
             this.btneliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btneliminar.Location = new System.Drawing.Point(400, 569);
+            this.btneliminar.Location = new System.Drawing.Point(349, 546);
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(204, 31);
             this.btneliminar.TabIndex = 9;
             this.btneliminar.Text = "ELIMINAR\r\n";
             this.btneliminar.UseVisualStyleBackColor = false;
-            // 
-            // btnguardado
-            // 
-            this.btnguardado.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnguardado.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnguardado.FlatAppearance.BorderSize = 0;
-            this.btnguardado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnguardado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardado.Image = global::Formulario_Menu.Properties.Resources.icons8_guardar_481;
-            this.btnguardado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnguardado.Location = new System.Drawing.Point(181, 569);
-            this.btnguardado.Name = "btnguardado";
-            this.btnguardado.Size = new System.Drawing.Size(204, 31);
-            this.btnguardado.TabIndex = 7;
-            this.btnguardado.Text = "GUARDAR\r\n";
-            this.btnguardado.UseVisualStyleBackColor = false;
             // 
             // BarraTitulo
             // 
@@ -195,7 +181,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(527, 9);
+            this.label6.Location = new System.Drawing.Point(488, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(165, 20);
             this.label6.TabIndex = 9;
@@ -204,9 +190,9 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.SeaGreen;
-            this.button2.Location = new System.Drawing.Point(548, 155);
+            this.button2.Location = new System.Drawing.Point(400, 240);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(82, 24);
+            this.button2.Size = new System.Drawing.Size(82, 31);
             this.button2.TabIndex = 25;
             this.button2.Text = "BUSCAR";
             this.button2.UseVisualStyleBackColor = false;
@@ -214,7 +200,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(274, 153);
+            this.comboBox1.Location = new System.Drawing.Point(265, 80);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(244, 26);
             this.comboBox1.TabIndex = 26;
@@ -222,7 +208,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(611, 103);
+            this.comboBox2.Location = new System.Drawing.Point(646, 119);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(244, 26);
             this.comboBox2.TabIndex = 27;
@@ -230,76 +216,120 @@
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(274, 55);
+            this.comboBox3.Location = new System.Drawing.Point(646, 76);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(244, 26);
             this.comboBox3.TabIndex = 28;
             // 
-            // dgv
+            // dataGridView1
             // 
-            this.dgv.BackgroundColor = System.Drawing.Color.White;
-            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.txtDESCRIPCIONES,
-            this.txtCANTIDADES,
-            this.txtLISTA_PRODUCTOS,
-            this.TXTSELECCION});
-            this.dgv.Location = new System.Drawing.Point(168, 219);
-            this.dgv.Name = "dgv";
-            this.dgv.Size = new System.Drawing.Size(680, 306);
-            this.dgv.TabIndex = 29;
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column2,
+            this.Column4,
+            this.Column5,
+            this.Column3});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.Location = new System.Drawing.Point(117, 300);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(838, 223);
+            this.dataGridView1.TabIndex = 35;
             // 
-            // textagregar
+            // btnguardado
             // 
-            this.textagregar.BackColor = System.Drawing.Color.SeaGreen;
-            this.textagregar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textagregar.ForeColor = System.Drawing.Color.White;
-            this.textagregar.Location = new System.Drawing.Point(636, 155);
-            this.textagregar.Name = "textagregar";
-            this.textagregar.Size = new System.Drawing.Size(81, 26);
-            this.textagregar.TabIndex = 33;
-            this.textagregar.Text = "AGREGAR";
+            this.btnguardado.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnguardado.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnguardado.FlatAppearance.BorderSize = 0;
+            this.btnguardado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnguardado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnguardado.Image = global::Formulario_Menu.Properties.Resources.icons8_guardar_481;
+            this.btnguardado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnguardado.Location = new System.Drawing.Point(501, 240);
+            this.btnguardado.Name = "btnguardado";
+            this.btnguardado.Size = new System.Drawing.Size(204, 31);
+            this.btnguardado.TabIndex = 36;
+            this.btnguardado.Text = "GUARDAR\r\n";
+            this.btnguardado.UseVisualStyleBackColor = false;
             // 
-            // btnteliminar
+            // btnproveedor
             // 
-            this.btnteliminar.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnteliminar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnteliminar.ForeColor = System.Drawing.Color.White;
-            this.btnteliminar.Location = new System.Drawing.Point(723, 155);
-            this.btnteliminar.Name = "btnteliminar";
-            this.btnteliminar.Size = new System.Drawing.Size(79, 26);
-            this.btnteliminar.TabIndex = 34;
-            this.btnteliminar.Text = "ELIMINAR";
+            this.btnproveedor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnproveedor.AutoSize = true;
+            this.btnproveedor.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnproveedor.Location = new System.Drawing.Point(155, 160);
+            this.btnproveedor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.btnproveedor.Name = "btnproveedor";
+            this.btnproveedor.Size = new System.Drawing.Size(104, 20);
+            this.btnproveedor.TabIndex = 37;
+            this.btnproveedor.Text = "PROVEEDOR:";
             // 
-            // txtDESCRIPCIONES
+            // comboBox4
             // 
-            this.txtDESCRIPCIONES.DividerWidth = 5;
-            this.txtDESCRIPCIONES.HeaderText = "DESCRIPCIONES";
-            this.txtDESCRIPCIONES.Name = "txtDESCRIPCIONES";
-            this.txtDESCRIPCIONES.ReadOnly = true;
-            this.txtDESCRIPCIONES.Width = 180;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(266, 160);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(244, 26);
+            this.comboBox4.TabIndex = 38;
             // 
-            // txtCANTIDADES
+            // btnfecha
             // 
-            this.txtCANTIDADES.DividerWidth = 5;
-            this.txtCANTIDADES.HeaderText = "CANTIDADES";
-            this.txtCANTIDADES.Name = "txtCANTIDADES";
-            this.txtCANTIDADES.ReadOnly = true;
-            this.txtCANTIDADES.Width = 180;
+            this.btnfecha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnfecha.AutoSize = true;
+            this.btnfecha.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnfecha.Location = new System.Drawing.Point(578, 162);
+            this.btnfecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.btnfecha.Name = "btnfecha";
+            this.btnfecha.Size = new System.Drawing.Size(61, 20);
+            this.btnfecha.TabIndex = 39;
+            this.btnfecha.Text = "FECHA:";
             // 
-            // txtLISTA_PRODUCTOS
+            // maskedTextBox1
             // 
-            this.txtLISTA_PRODUCTOS.DividerWidth = 5;
-            this.txtLISTA_PRODUCTOS.HeaderText = "LISTA_PRODUCTOS";
-            this.txtLISTA_PRODUCTOS.Name = "txtLISTA_PRODUCTOS";
-            this.txtLISTA_PRODUCTOS.ReadOnly = true;
-            this.txtLISTA_PRODUCTOS.Width = 180;
+            this.maskedTextBox1.Location = new System.Drawing.Point(646, 160);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(175, 24);
+            this.maskedTextBox1.TabIndex = 40;
+            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
-            // TXTSELECCION
+            // Column2
             // 
-            this.TXTSELECCION.HeaderText = "SELECCION";
-            this.TXTSELECCION.Name = "TXTSELECCION";
-            this.TXTSELECCION.ReadOnly = true;
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DividerWidth = 2;
+            this.Column2.HeaderText = "NOMBREPRODUCTO";
+            this.Column2.Name = "Column2";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DividerWidth = 2;
+            this.Column4.HeaderText = "CANTIDAD";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DividerWidth = 2;
+            this.Column5.HeaderText = "PROVEEDOR";
+            this.Column5.Name = "Column5";
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DividerWidth = 2;
+            this.Column3.HeaderText = "DESCRIPCION";
+            this.Column3.Name = "Column3";
             // 
             // Productos
             // 
@@ -307,9 +337,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1080, 612);
-            this.Controls.Add(this.btnteliminar);
-            this.Controls.Add(this.textagregar);
-            this.Controls.Add(this.dgv);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.btnfecha);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.btnproveedor);
+            this.Controls.Add(this.btnguardado);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -318,7 +351,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnmodificar);
             this.Controls.Add(this.btneliminar);
-            this.Controls.Add(this.btnguardado);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -332,7 +364,7 @@
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -346,7 +378,6 @@
         private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.Button btnmodificar;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnguardado;
         private System.Windows.Forms.Panel BarraTitulo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label6;
@@ -354,12 +385,15 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.DataGridView dgv;
-        private System.Windows.Forms.TextBox textagregar;
-        private System.Windows.Forms.TextBox btnteliminar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtDESCRIPCIONES;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtCANTIDADES;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtLISTA_PRODUCTOS;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn TXTSELECCION;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnguardado;
+        private System.Windows.Forms.Label btnproveedor;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label btnfecha;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }

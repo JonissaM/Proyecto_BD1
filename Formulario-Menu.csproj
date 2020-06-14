@@ -215,5 +215,17 @@
   <ItemGroup>
     <None Include="Resources\icons8-documento-correcto-48.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-archivo-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-archivo-48-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-agregar-carpeta-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-archivo-30.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
