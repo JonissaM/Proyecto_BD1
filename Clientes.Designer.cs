@@ -47,11 +47,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.BarraTitulo = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnclientes = new System.Windows.Forms.Label();
-            this.btnguardar = new System.Windows.Forms.Button();
-            this.btneliminar = new System.Windows.Forms.Button();
-            this.btnmodificar = new System.Windows.Forms.Button();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,9 +55,13 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnmodificar = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
+            this.btnguardar = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BarraTitulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbldireccion
@@ -250,16 +250,6 @@
             this.BarraTitulo.Size = new System.Drawing.Size(1080, 38);
             this.BarraTitulo.TabIndex = 25;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Formulario_Menu.Properties.Resources.WhatsApp_Image_2020_06_06_at_12_33_07_PM;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(52, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            // 
             // btnclientes
             // 
             this.btnclientes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -273,53 +263,6 @@
             this.btnclientes.Size = new System.Drawing.Size(108, 25);
             this.btnclientes.TabIndex = 24;
             this.btnclientes.Text = "CLIENTES";
-            // 
-            // btnguardar
-            // 
-            this.btnguardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnguardar.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnguardar.Image = global::Formulario_Menu.Properties.Resources.icons8_guardar_48;
-            this.btnguardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnguardar.Location = new System.Drawing.Point(455, 282);
-            this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(166, 32);
-            this.btnguardar.TabIndex = 27;
-            this.btnguardar.Text = "GUARDAR";
-            this.btnguardar.UseVisualStyleBackColor = false;
-            // 
-            // btneliminar
-            // 
-            this.btneliminar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btneliminar.BackColor = System.Drawing.Color.SeaGreen;
-            this.btneliminar.FlatAppearance.BorderSize = 0;
-            this.btneliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btneliminar.Image = global::Formulario_Menu.Properties.Resources.icons8_eliminar_48;
-            this.btneliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btneliminar.Location = new System.Drawing.Point(314, 569);
-            this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(204, 31);
-            this.btneliminar.TabIndex = 28;
-            this.btneliminar.Text = "ELIMINAR\r\n";
-            this.btneliminar.UseVisualStyleBackColor = false;
-            // 
-            // btnmodificar
-            // 
-            this.btnmodificar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnmodificar.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnmodificar.FlatAppearance.BorderSize = 0;
-            this.btnmodificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnmodificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmodificar.Image = global::Formulario_Menu.Properties.Resources.icons8_documento_correcto_48;
-            this.btnmodificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnmodificar.Location = new System.Drawing.Point(524, 569);
-            this.btnmodificar.Name = "btnmodificar";
-            this.btnmodificar.Size = new System.Drawing.Size(204, 31);
-            this.btnmodificar.TabIndex = 29;
-            this.btnmodificar.Text = "MODIFICAR\r\n";
-            this.btnmodificar.UseVisualStyleBackColor = false;
             // 
             // maskedTextBox1
             // 
@@ -388,6 +331,63 @@
             this.Column6.HeaderText = "SELECCIONA";
             this.Column6.Name = "Column6";
             // 
+            // btnmodificar
+            // 
+            this.btnmodificar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnmodificar.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnmodificar.FlatAppearance.BorderSize = 0;
+            this.btnmodificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnmodificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmodificar.Image = global::Formulario_Menu.Properties.Resources.icons8_documento_correcto_48;
+            this.btnmodificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnmodificar.Location = new System.Drawing.Point(524, 569);
+            this.btnmodificar.Name = "btnmodificar";
+            this.btnmodificar.Size = new System.Drawing.Size(204, 31);
+            this.btnmodificar.TabIndex = 29;
+            this.btnmodificar.Text = "MODIFICAR\r\n";
+            this.btnmodificar.UseVisualStyleBackColor = false;
+            // 
+            // btneliminar
+            // 
+            this.btneliminar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btneliminar.BackColor = System.Drawing.Color.SeaGreen;
+            this.btneliminar.FlatAppearance.BorderSize = 0;
+            this.btneliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btneliminar.Image = global::Formulario_Menu.Properties.Resources.icons8_eliminar_48;
+            this.btneliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btneliminar.Location = new System.Drawing.Point(314, 569);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(204, 31);
+            this.btneliminar.TabIndex = 28;
+            this.btneliminar.Text = "ELIMINAR\r\n";
+            this.btneliminar.UseVisualStyleBackColor = false;
+            // 
+            // btnguardar
+            // 
+            this.btnguardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnguardar.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnguardar.Image = global::Formulario_Menu.Properties.Resources.icons8_guardar_48;
+            this.btnguardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnguardar.Location = new System.Drawing.Point(455, 282);
+            this.btnguardar.Name = "btnguardar";
+            this.btnguardar.Size = new System.Drawing.Size(166, 32);
+            this.btnguardar.TabIndex = 27;
+            this.btnguardar.Text = "GUARDAR";
+            this.btnguardar.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Formulario_Menu.Properties.Resources.WhatsApp_Image_2020_06_06_at_12_33_07_PM;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(52, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -422,8 +422,8 @@
             this.Load += new System.EventHandler(this.Clientes_Load);
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -448,7 +448,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel BarraTitulo;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label btnclientes;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btneliminar;
@@ -460,5 +459,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

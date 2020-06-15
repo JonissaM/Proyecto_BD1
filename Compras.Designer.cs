@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Compras));
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -124,15 +124,15 @@
             this.Column6,
             this.Column1,
             this.Column7});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.Location = new System.Drawing.Point(152, 373);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.Location = new System.Drawing.Point(116, 379);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(838, 188);
             this.dataGridView1.TabIndex = 34;
@@ -434,7 +434,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(402, 325);
+            this.button2.Location = new System.Drawing.Point(343, 327);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(204, 31);
             this.button2.TabIndex = 62;
@@ -451,7 +451,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = global::Formulario_Menu.Properties.Resources.icons8_eliminar_48;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(617, 325);
+            this.button1.Location = new System.Drawing.Point(558, 327);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(204, 31);
             this.button1.TabIndex = 61;
@@ -468,7 +468,7 @@
             this.btnmodificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmodificar.Image = global::Formulario_Menu.Properties.Resources.icons8_documento_correcto_48;
             this.btnmodificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnmodificar.Location = new System.Drawing.Point(675, 568);
+            this.btnmodificar.Location = new System.Drawing.Point(639, 574);
             this.btnmodificar.Name = "btnmodificar";
             this.btnmodificar.Size = new System.Drawing.Size(204, 31);
             this.btnmodificar.TabIndex = 38;
@@ -485,7 +485,7 @@
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Image = ((System.Drawing.Image)(resources.GetObject("btneliminar.Image")));
             this.btneliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btneliminar.Location = new System.Drawing.Point(287, 568);
+            this.btneliminar.Location = new System.Drawing.Point(251, 574);
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(204, 31);
             this.btneliminar.TabIndex = 37;
@@ -498,7 +498,7 @@
             this.btnguardar.BackColor = System.Drawing.Color.SeaGreen;
             this.btnguardar.Image = global::Formulario_Menu.Properties.Resources.icons8_guardar_48;
             this.btnguardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnguardar.Location = new System.Drawing.Point(498, 568);
+            this.btnguardar.Location = new System.Drawing.Point(462, 574);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(166, 32);
             this.btnguardar.TabIndex = 36;

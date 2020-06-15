@@ -162,9 +162,6 @@
     <None Include="Resources\icons8-cajero-automático-501.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logouni12.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-monitor-26.png" />
   </ItemGroup>
   <ItemGroup>

@@ -61,6 +61,12 @@
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.rprtpagoventas = new System.Windows.Forms.Button();
+            this.rprtpagocompras = new System.Windows.Forms.Button();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -72,6 +78,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btninicio)).BeginInit();
             this.panelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.panel12.SuspendLayout();
+            this.panel13.SuspendLayout();
             this.SuspendLayout();
             // 
             // BarraTitulo
@@ -144,6 +152,7 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.MenuVertical.Controls.Add(this.panel12);
             this.MenuVertical.Controls.Add(this.btnsalir);
             this.MenuVertical.Controls.Add(this.SubmenuReportes);
             this.MenuVertical.Controls.Add(this.panel7);
@@ -180,13 +189,13 @@
             // 
             // SubmenuReportes
             // 
-            this.SubmenuReportes.Controls.Add(this.panel11);
-            this.SubmenuReportes.Controls.Add(this.btnrptpagos);
-            this.SubmenuReportes.Controls.Add(this.panel10);
             this.SubmenuReportes.Controls.Add(this.btnrptcompras);
+            this.SubmenuReportes.Controls.Add(this.panel11);
+            this.SubmenuReportes.Controls.Add(this.panel10);
             this.SubmenuReportes.Controls.Add(this.panel9);
             this.SubmenuReportes.Controls.Add(this.btnrptventas);
-            this.SubmenuReportes.Location = new System.Drawing.Point(34, 387);
+            this.SubmenuReportes.Controls.Add(this.btnrptpagos);
+            this.SubmenuReportes.Location = new System.Drawing.Point(34, 458);
             this.SubmenuReportes.Name = "SubmenuReportes";
             this.SubmenuReportes.Size = new System.Drawing.Size(186, 100);
             this.SubmenuReportes.TabIndex = 15;
@@ -219,7 +228,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel10.Location = new System.Drawing.Point(3, 37);
+            this.panel10.Location = new System.Drawing.Point(3, 38);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(5, 28);
             this.panel10.TabIndex = 16;
@@ -267,7 +276,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel7.Location = new System.Drawing.Point(3, 349);
+            this.panel7.Location = new System.Drawing.Point(3, 420);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(5, 32);
             this.panel7.TabIndex = 14;
@@ -281,7 +290,7 @@
             this.btnReportes.ForeColor = System.Drawing.Color.White;
             this.btnReportes.Image = global::Formulario_Menu.Properties.Resources.icons8_gráfico_de_barras_48;
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.Location = new System.Drawing.Point(6, 349);
+            this.btnReportes.Location = new System.Drawing.Point(6, 420);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(214, 32);
             this.btnReportes.TabIndex = 13;
@@ -472,6 +481,73 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.rprtpagocompras);
+            this.panel12.Controls.Add(this.rprtpagoventas);
+            this.panel12.Controls.Add(this.panel15);
+            this.panel12.Controls.Add(this.panel13);
+            this.panel12.Location = new System.Drawing.Point(14, 349);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(203, 72);
+            this.panel12.TabIndex = 19;
+            this.panel12.Visible = false;
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel13.Controls.Add(this.panel14);
+            this.panel13.Location = new System.Drawing.Point(3, 3);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(5, 28);
+            this.panel13.TabIndex = 15;
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel14.Location = new System.Drawing.Point(0, 0);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(5, 28);
+            this.panel14.TabIndex = 15;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel15.Location = new System.Drawing.Point(3, 41);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(5, 28);
+            this.panel15.TabIndex = 16;
+            // 
+            // rprtpagoventas
+            // 
+            this.rprtpagoventas.FlatAppearance.BorderSize = 0;
+            this.rprtpagoventas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.rprtpagoventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rprtpagoventas.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rprtpagoventas.ForeColor = System.Drawing.Color.White;
+            this.rprtpagoventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rprtpagoventas.Location = new System.Drawing.Point(9, 3);
+            this.rprtpagoventas.Name = "rprtpagoventas";
+            this.rprtpagoventas.Size = new System.Drawing.Size(197, 31);
+            this.rprtpagoventas.TabIndex = 14;
+            this.rprtpagoventas.Text = "Reporte pago de ventas";
+            this.rprtpagoventas.UseVisualStyleBackColor = true;
+            // 
+            // rprtpagocompras
+            // 
+            this.rprtpagocompras.FlatAppearance.BorderSize = 0;
+            this.rprtpagocompras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.rprtpagocompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rprtpagocompras.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rprtpagocompras.ForeColor = System.Drawing.Color.White;
+            this.rprtpagocompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rprtpagocompras.Location = new System.Drawing.Point(6, 38);
+            this.rprtpagocompras.Name = "rprtpagocompras";
+            this.rprtpagocompras.Size = new System.Drawing.Size(197, 31);
+            this.rprtpagocompras.TabIndex = 15;
+            this.rprtpagocompras.Text = "Reporte pago compras";
+            this.rprtpagocompras.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -494,6 +570,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btninicio)).EndInit();
             this.panelContenedor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.panel12.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -532,6 +610,12 @@
         private System.Windows.Forms.PictureBox btnsalir;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Button rprtpagocompras;
+        private System.Windows.Forms.Button rprtpagoventas;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel14;
     }
 }
 

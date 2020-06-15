@@ -36,11 +36,11 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.btncerrar = new System.Windows.Forms.Label();
             this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnguardar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
@@ -138,6 +138,17 @@
             this.BarraTitulo.Size = new System.Drawing.Size(1080, 38);
             this.BarraTitulo.TabIndex = 24;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(371, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 23);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "VENTAS";
+            // 
             // btnmodificar
             // 
             this.btnmodificar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -195,17 +206,6 @@
             this.btnguardar.Text = "GUARDAR";
             this.btnguardar.UseVisualStyleBackColor = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(371, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 23);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "VENTAS";
-            // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(249, 88);
@@ -219,7 +219,7 @@
             // maskedTextBox2
             // 
             this.maskedTextBox2.Location = new System.Drawing.Point(621, 88);
-            this.maskedTextBox2.Mask = "00/00/0000 00:00";
+            this.maskedTextBox2.Mask = "00/00/0000";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(136, 20);
             this.maskedTextBox2.TabIndex = 28;
