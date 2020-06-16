@@ -131,17 +131,6 @@ namespace Formulario_Menu
         {
             AbrirFromHija(new LoginEmpleados());
         } 
-        private void btnPagos_Click_1(object sender, EventArgs e)
-        {
-            SubMenuPagos.Visible = !SubMenuPagos.Visible;
-        }
-        private void rprtpagoventas_Click(object sender, EventArgs e)
-        {
-           // SubMenuPagos.Visible = false;
-        }
-        private void rprtpagocompras_Click(object sender, EventArgs e)
-        {
-           // SubMenuPagos.Visible = false;
-        }
+        
     }
 }
