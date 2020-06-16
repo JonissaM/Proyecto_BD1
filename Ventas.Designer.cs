@@ -53,15 +53,17 @@
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.checboxEfectivo = new System.Windows.Forms.CheckBox();
             this.cheboxTarjeta = new System.Windows.Forms.CheckBox();
+            this.checboxEfectivo = new System.Windows.Forms.CheckBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button3 = new System.Windows.Forms.Button();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -159,7 +161,7 @@
             this.btnmodificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmodificar.Image = global::Formulario_Menu.Properties.Resources.icons8_documento_correcto_48;
             this.btnmodificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnmodificar.Location = new System.Drawing.Point(430, 569);
+            this.btnmodificar.Location = new System.Drawing.Point(449, 569);
             this.btnmodificar.Name = "btnmodificar";
             this.btnmodificar.Size = new System.Drawing.Size(204, 31);
             this.btnmodificar.TabIndex = 26;
@@ -176,7 +178,7 @@
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Image = global::Formulario_Menu.Properties.Resources.icons8_eliminar_48;
             this.btneliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btneliminar.Location = new System.Drawing.Point(642, 569);
+            this.btneliminar.Location = new System.Drawing.Point(661, 569);
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(204, 31);
             this.btneliminar.TabIndex = 25;
@@ -209,12 +211,14 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
+            this.Column6,
             this.Column2,
+            this.Column5,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(171, 245);
+            this.dataGridView1.Location = new System.Drawing.Point(220, 299);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(441, 298);
+            this.dataGridView1.Size = new System.Drawing.Size(646, 249);
             this.dataGridView1.TabIndex = 30;
             // 
             // label6
@@ -345,7 +349,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(718, 283);
+            this.button1.Location = new System.Drawing.Point(373, 249);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(204, 31);
             this.button1.TabIndex = 39;
@@ -357,10 +361,34 @@
             this.panel1.Controls.Add(this.cheboxTarjeta);
             this.panel1.Controls.Add(this.checboxEfectivo);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Location = new System.Drawing.Point(642, 377);
+            this.panel1.Location = new System.Drawing.Point(612, 236);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(270, 114);
+            this.panel1.Size = new System.Drawing.Size(234, 57);
             this.panel1.TabIndex = 40;
+            // 
+            // cheboxTarjeta
+            // 
+            this.cheboxTarjeta.AutoSize = true;
+            this.cheboxTarjeta.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cheboxTarjeta.ForeColor = System.Drawing.Color.White;
+            this.cheboxTarjeta.Location = new System.Drawing.Point(148, 33);
+            this.cheboxTarjeta.Name = "cheboxTarjeta";
+            this.cheboxTarjeta.Size = new System.Drawing.Size(84, 24);
+            this.cheboxTarjeta.TabIndex = 2;
+            this.cheboxTarjeta.Text = "TARJETA";
+            this.cheboxTarjeta.UseVisualStyleBackColor = true;
+            // 
+            // checboxEfectivo
+            // 
+            this.checboxEfectivo.AutoSize = true;
+            this.checboxEfectivo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checboxEfectivo.ForeColor = System.Drawing.Color.White;
+            this.checboxEfectivo.Location = new System.Drawing.Point(16, 30);
+            this.checboxEfectivo.Name = "checboxEfectivo";
+            this.checboxEfectivo.Size = new System.Drawing.Size(97, 24);
+            this.checboxEfectivo.TabIndex = 1;
+            this.checboxEfectivo.Text = "EFECTIVO";
+            this.checboxEfectivo.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -368,72 +396,21 @@
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.label10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(80, 18);
+            this.label10.Location = new System.Drawing.Point(68, 12);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(111, 18);
             this.label10.TabIndex = 0;
             this.label10.Text = "TIPO DE PAGO";
             // 
-            // checboxEfectivo
-            // 
-            this.checboxEfectivo.AutoSize = true;
-            this.checboxEfectivo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checboxEfectivo.ForeColor = System.Drawing.Color.White;
-            this.checboxEfectivo.Location = new System.Drawing.Point(41, 59);
-            this.checboxEfectivo.Name = "checboxEfectivo";
-            this.checboxEfectivo.Size = new System.Drawing.Size(97, 24);
-            this.checboxEfectivo.TabIndex = 1;
-            this.checboxEfectivo.Text = "EFECTIVO";
-            this.checboxEfectivo.UseVisualStyleBackColor = true;
-            // 
-            // cheboxTarjeta
-            // 
-            this.cheboxTarjeta.AutoSize = true;
-            this.cheboxTarjeta.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cheboxTarjeta.ForeColor = System.Drawing.Color.White;
-            this.cheboxTarjeta.Location = new System.Drawing.Point(144, 59);
-            this.cheboxTarjeta.Name = "cheboxTarjeta";
-            this.cheboxTarjeta.Size = new System.Drawing.Size(84, 24);
-            this.cheboxTarjeta.TabIndex = 2;
-            this.cheboxTarjeta.Text = "TARJETA";
-            this.cheboxTarjeta.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.SeaGreen;
-            this.button2.Location = new System.Drawing.Point(630, 283);
+            this.button2.Location = new System.Drawing.Point(272, 249);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(82, 31);
             this.button2.TabIndex = 41;
             this.button2.Text = "BUSCAR";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // Column1
-            // 
-            this.Column1.DividerWidth = 2;
-            this.Column1.HeaderText = "CODIGO PRODUCTO";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DividerWidth = 2;
-            this.Column2.HeaderText = "PRODUCTO";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.DividerWidth = 2;
-            this.Column3.HeaderText = "CANTIDAD";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.DividerWidth = 2;
-            this.Column4.HeaderText = "TOTAL";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
             // 
             // button3
             // 
@@ -445,12 +422,53 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(220, 569);
+            this.button3.Location = new System.Drawing.Point(239, 569);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(204, 31);
             this.button3.TabIndex = 42;
             this.button3.Text = "NUEVO\r\n";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // Column1
+            // 
+            this.Column1.DividerWidth = 2;
+            this.Column1.HeaderText = "CODIGO PRODUCTO";
+            this.Column1.Name = "Column1";
+            // 
+            // Column6
+            // 
+            this.Column6.DividerWidth = 2;
+            this.Column6.HeaderText = "CANTIDAD";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.DividerWidth = 2;
+            this.Column2.HeaderText = "PRODUCTO";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.DividerWidth = 2;
+            this.Column5.HeaderText = "DETALLE DE VENTA";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.DividerWidth = 2;
+            this.Column3.HeaderText = "UNIDAD";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.DividerWidth = 2;
+            this.Column4.HeaderText = "SUDTOTAL";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
             // Ventas
             // 
@@ -525,10 +543,12 @@
         private System.Windows.Forms.CheckBox checboxEfectivo;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Button button3;
     }
 }

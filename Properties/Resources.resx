@@ -172,6 +172,9 @@
   <data name="icons8-camioneta-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-camioneta-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-archivo-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-archivo-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logouni12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logouni12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,7 +202,7 @@
   <data name="icons8-carrito-de-la-compra-cargado-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-carrito-de-la-compra-cargado-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-archivo-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-archivo-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bad5d0cbacc377e6aca998793c50f471-bienvenido-de-nuevo-splash-letras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bad5d0cbacc377e6aca998793c50f471-bienvenido-de-nuevo-splash-letras.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

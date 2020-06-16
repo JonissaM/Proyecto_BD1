@@ -382,7 +382,7 @@
             this.btnPagos.TabIndex = 12;
             this.btnPagos.Text = "Pagos";
             this.btnPagos.UseVisualStyleBackColor = true;
-            this.btnPagos.Click += new System.EventHandler(this.btnpagos_Click);
+            this.btnPagos.Click += new System.EventHandler(this.btnPagos_Click_1);
             // 
             // btnempleados
             // 

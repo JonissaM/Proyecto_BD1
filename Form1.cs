@@ -122,23 +122,26 @@ namespace Formulario_Menu
         {
             AbrirFromHija(new Ventas());
         }
-        private void btnPagos_Click(object sender, EventArgs e)
+        private void btnpagos_Click(object sender, EventArgs e)
         {
             AbrirFromHija(new Pagos());
-            SubMenuPagos.Visible = !SubMenuPagos.Visible;
         }
         
         private void btnempleados_Click(object sender, EventArgs e)
         {
             AbrirFromHija(new LoginEmpleados());
         } 
+        private void btnPagos_Click_1(object sender, EventArgs e)
+        {
+            SubMenuPagos.Visible = !SubMenuPagos.Visible;
+        }
         private void rprtpagoventas_Click(object sender, EventArgs e)
         {
-            SubMenuPagos.Visible = false;
+           // SubMenuPagos.Visible = false;
         }
         private void rprtpagocompras_Click(object sender, EventArgs e)
         {
-            SubMenuPagos.Visible = false;
+           // SubMenuPagos.Visible = false;
         }
     }
 }

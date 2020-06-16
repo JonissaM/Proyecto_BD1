@@ -73,6 +73,16 @@ namespace Formulario_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bad5d0cbacc377e6aca998793c50f471_bienvenido_de_nuevo_splash_letras {
+            get {
+                object obj = ResourceManager.GetObject("bad5d0cbacc377e6aca998793c50f471-bienvenido-de-nuevo-splash-letras", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_agregar_carpeta_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-agregar-carpeta-48", resourceCulture);
