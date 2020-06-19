@@ -324,7 +324,7 @@
             this.btnguardar.BackColor = System.Drawing.Color.SeaGreen;
             this.btnguardar.Image = global::Formulario_Menu.Properties.Resources.icons8_guardar_48;
             this.btnguardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnguardar.Location = new System.Drawing.Point(550, 282);
+            this.btnguardar.Location = new System.Drawing.Point(526, 282);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(166, 32);
             this.btnguardar.TabIndex = 27;
@@ -334,7 +334,7 @@
             // btnBuscarCompra
             // 
             this.btnBuscarCompra.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnBuscarCompra.Location = new System.Drawing.Point(462, 282);
+            this.btnBuscarCompra.Location = new System.Drawing.Point(438, 282);
             this.btnBuscarCompra.Name = "btnBuscarCompra";
             this.btnBuscarCompra.Size = new System.Drawing.Size(82, 31);
             this.btnBuscarCompra.TabIndex = 64;
