@@ -131,9 +131,14 @@ namespace Formulario_Menu
         {
             AbrirFromHija(new LoginEmpleados());
         }
-
-        private void btnProveedores_Click(object sender, EventArgs e)
+        private void btnProveedores_Click_1(object sender, EventArgs e)
         {
+            AbrirFromHija(new Proveedores());
+        }
+
+        private void btnDevolucion_Click(object sender, EventArgs e)
+        {
+            AbrirFromHija(new Devoluciones());
         }
     }
 }

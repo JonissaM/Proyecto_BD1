@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Formulario_Menu
 {
-    public partial class Proveedores : Form
+    public partial class Devoluciones : Form
     {
-        public Proveedores()
+        public Devoluciones()
         {
             InitializeComponent();
-        }
-
-        private void btnproveedores_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

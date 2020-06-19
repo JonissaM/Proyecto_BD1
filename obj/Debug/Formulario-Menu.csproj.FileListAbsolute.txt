@@ -29,3 +29,5 @@ F:\Formulario-Menu\obj\Debug\Formulario-Menu.csproj.GenerateResource.cache
 F:\Formulario-Menu\obj\Debug\Formulario-Menu.exe
 F:\Formulario-Menu\obj\Debug\Formulario-Menu.pdb
 F:\Formulario-Menu\obj\Debug\Formulario_Menu.Pagos.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Proveedores.resources
+F:\Formulario-Menu\obj\Debug\Formulario_Menu.Devoluciones.resources

@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proveedores));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnclientes = new System.Windows.Forms.Label();
+            this.btnproveedores = new System.Windows.Forms.Label();
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.lblTelefono = new System.Windows.Forms.Label();
             this.txtIdProveedor = new System.Windows.Forms.MaskedTextBox();
@@ -52,15 +52,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btneliminar = new System.Windows.Forms.Button();
-            this.btnmodificar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
+            this.btnmodificar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -76,24 +76,25 @@
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
-            // btnclientes
+            // btnproveedores
             // 
-            this.btnclientes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnproveedores.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnclientes.AutoSize = true;
-            this.btnclientes.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclientes.ForeColor = System.Drawing.Color.White;
-            this.btnclientes.Location = new System.Drawing.Point(398, 9);
-            this.btnclientes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.btnclientes.Name = "btnclientes";
-            this.btnclientes.Size = new System.Drawing.Size(313, 25);
-            this.btnclientes.TabIndex = 25;
-            this.btnclientes.Text = "REGISTRO DE PROVEEDORES";
+            this.btnproveedores.AutoSize = true;
+            this.btnproveedores.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnproveedores.ForeColor = System.Drawing.Color.White;
+            this.btnproveedores.Location = new System.Drawing.Point(398, 9);
+            this.btnproveedores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.btnproveedores.Name = "btnproveedores";
+            this.btnproveedores.Size = new System.Drawing.Size(313, 25);
+            this.btnproveedores.TabIndex = 25;
+            this.btnproveedores.Text = "REGISTRO DE PROVEEDORES";
+            this.btnproveedores.Click += new System.EventHandler(this.btnproveedores_Click);
             // 
             // BarraTitulo
             // 
             this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.BarraTitulo.Controls.Add(this.btnclientes);
+            this.BarraTitulo.Controls.Add(this.btnproveedores);
             this.BarraTitulo.Controls.Add(this.pictureBox2);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
@@ -296,18 +297,58 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Location = new System.Drawing.Point(179, 272);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(727, 255);
             this.dataGridView1.TabIndex = 51;
+            // 
+            // Column1
+            // 
+            this.Column1.DividerWidth = 2;
+            this.Column1.HeaderText = "ID_PROVEEDOR";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 119;
+            // 
+            // Column2
+            // 
+            this.Column2.DividerWidth = 2;
+            this.Column2.HeaderText = "NOMBRE_PROVEEDOR";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 150;
+            // 
+            // Column3
+            // 
+            this.Column3.DividerWidth = 2;
+            this.Column3.HeaderText = "DIRECCION";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 119;
+            // 
+            // Column4
+            // 
+            this.Column4.DividerWidth = 2;
+            this.Column4.HeaderText = "TELEFONO";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 119;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "DECRIPCION_DE_PROVEEDOR";
+            this.Column5.MinimumWidth = 2;
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Width = 175;
             // 
             // button2
             // 
@@ -377,46 +418,6 @@
             this.button1.Text = "ELIMINAR\r\n";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // Column1
-            // 
-            this.Column1.DividerWidth = 2;
-            this.Column1.HeaderText = "ID_PROVEEDOR";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 119;
-            // 
-            // Column2
-            // 
-            this.Column2.DividerWidth = 2;
-            this.Column2.HeaderText = "NOMBRE_PROVEEDOR";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 150;
-            // 
-            // Column3
-            // 
-            this.Column3.DividerWidth = 2;
-            this.Column3.HeaderText = "DIRECCION";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 119;
-            // 
-            // Column4
-            // 
-            this.Column4.DividerWidth = 2;
-            this.Column4.HeaderText = "TELEFONO";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Width = 119;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "DECRIPCION_DE_PROVEEDOR";
-            this.Column5.MinimumWidth = 2;
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.Width = 175;
-            // 
             // Proveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -462,7 +463,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label btnclientes;
+        private System.Windows.Forms.Label btnproveedores;
         private System.Windows.Forms.Panel BarraTitulo;
         private System.Windows.Forms.Label lblTelefono;
         private System.Windows.Forms.MaskedTextBox txtIdProveedor;
