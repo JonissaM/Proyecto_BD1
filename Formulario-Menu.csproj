@@ -227,5 +227,8 @@
   <ItemGroup>
     <None Include="Resources\bad5d0cbacc377e6aca998793c50f471-bienvenido-de-nuevo-splash-letras.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-proveedor-38-1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

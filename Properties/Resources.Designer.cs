@@ -293,6 +293,16 @@ namespace Formulario_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_proveedor_38_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-proveedor-38-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_restaurar_ventana_40 {
             get {
                 object obj = ResourceManager.GetObject("icons8-restaurar-ventana-40", resourceCulture);

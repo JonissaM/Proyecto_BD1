@@ -130,7 +130,10 @@ namespace Formulario_Menu
         private void btnempleados_Click(object sender, EventArgs e)
         {
             AbrirFromHija(new LoginEmpleados());
-        } 
-        
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
