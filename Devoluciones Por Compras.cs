@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Formulario_Menu
 {
-    public partial class Pagos : Form
+    public partial class Devoluciones_Por_Compras : Form
     {
-        public Pagos()
+        public Devoluciones_Por_Compras()
         {
             InitializeComponent();
         }

@@ -58,6 +58,12 @@
     <Compile Include="Compras.Designer.cs">
       <DependentUpon>Compras.cs</DependentUpon>
     </Compile>
+    <Compile Include="Devoluciones Por Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devoluciones Por Compras.Designer.cs">
+      <DependentUpon>Devoluciones Por Compras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Devoluciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +88,11 @@
     <Compile Include="LoginEmpleados.Designer.cs">
       <DependentUpon>LoginEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pagos.cs">
+    <Compile Include="Reporte Compras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pagos.Designer.cs">
-      <DependentUpon>Pagos.cs</DependentUpon>
+    <Compile Include="Reporte Compras.Designer.cs">
+      <DependentUpon>Reporte Compras.cs</DependentUpon>
     </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
@@ -102,6 +108,18 @@
     <Compile Include="Proveedores.Designer.cs">
       <DependentUpon>Proveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReporteDePagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteDePagos.Designer.cs">
+      <DependentUpon>ReporteDePagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes de ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes de ventas.Designer.cs">
+      <DependentUpon>Reportes de ventas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devoluciones Por Compras.resx">
+      <DependentUpon>Devoluciones Por Compras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Devoluciones.resx">
       <DependentUpon>Devoluciones.cs</DependentUpon>
@@ -126,8 +147,8 @@
     <EmbeddedResource Include="LoginEmpleados.resx">
       <DependentUpon>LoginEmpleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pagos.resx">
-      <DependentUpon>Pagos.cs</DependentUpon>
+    <EmbeddedResource Include="Reporte Compras.resx">
+      <DependentUpon>Reporte Compras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
@@ -144,6 +165,12 @@
     </Compile>
     <EmbeddedResource Include="Proveedores.resx">
       <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteDePagos.resx">
+      <DependentUpon>ReporteDePagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes de ventas.resx">
+      <DependentUpon>Reportes de ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>

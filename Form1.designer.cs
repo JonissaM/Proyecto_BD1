@@ -368,12 +368,12 @@
             // panel26
             // 
             this.panel26.Controls.Add(this.button12);
-            this.panel26.Controls.Add(this.button13);
             this.panel26.Controls.Add(this.panel27);
             this.panel26.Controls.Add(this.panel34);
+            this.panel26.Controls.Add(this.button13);
             this.panel26.Controls.Add(this.button14);
             this.panel26.Controls.Add(this.panel35);
-            this.panel26.Location = new System.Drawing.Point(31, 425);
+            this.panel26.Location = new System.Drawing.Point(31, 427);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(186, 100);
             this.panel26.TabIndex = 15;
@@ -387,9 +387,9 @@
             this.button12.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(7, 34);
+            this.button12.Location = new System.Drawing.Point(7, 36);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(176, 28);
+            this.button12.Size = new System.Drawing.Size(180, 28);
             this.button12.TabIndex = 15;
             this.button12.Text = "Reporte Compras";
             this.button12.UseVisualStyleBackColor = true;
@@ -403,9 +403,9 @@
             this.button13.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.White;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.Location = new System.Drawing.Point(7, 0);
+            this.button13.Location = new System.Drawing.Point(7, 7);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(176, 28);
+            this.button13.Size = new System.Drawing.Size(181, 28);
             this.button13.TabIndex = 13;
             this.button13.Text = "Reporte Ventas";
             this.button13.UseVisualStyleBackColor = true;
@@ -414,7 +414,7 @@
             // panel27
             // 
             this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel27.Location = new System.Drawing.Point(3, 0);
+            this.panel27.Location = new System.Drawing.Point(3, 6);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(5, 28);
             this.panel27.TabIndex = 14;

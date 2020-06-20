@@ -124,7 +124,7 @@ namespace Formulario_Menu
         }
         private void btnpagos_Click(object sender, EventArgs e)
         {
-            AbrirFromHija(new Pagos());
+            AbrirFromHija(new FormCompras());
         }
         
         private void btnempleados_Click(object sender, EventArgs e)
@@ -140,5 +140,6 @@ namespace Formulario_Menu
         {
             AbrirFromHija(new Devoluciones());
         }
+
     }
 }

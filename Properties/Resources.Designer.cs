@@ -223,6 +223,16 @@ namespace Formulario_Menu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_efectivo_en_mano_40_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-efectivo-en-mano-40-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_eliminar_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-eliminar-48", resourceCulture);
@@ -356,6 +366,16 @@ namespace Formulario_Menu.Properties {
         internal static System.Drawing.Bitmap icons8_tarjeta_de_empleado_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-tarjeta-de-empleado-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_tarjetas_bancarias_40 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tarjetas-bancarias-40", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
